@@ -18,7 +18,7 @@ switch ($method){
         $connection = new SendRequest("https://trungprod015-api.uiza.co/api/public/v3/media/entity");
         $headers = array();
         array_push($headers, "Content-Type: application/json");
-        array_push($headers, "Authorization: uiza-token");
+        array_push($headers, "Authorization: uap-01e137ad1b534004ad822035bf89b29f-b9b31f29");
         $connection->createConnectionWithNoParam();
         $connection->setCustomHeaders($headers);
         $resp = $connection->sendRequest("", "GET");

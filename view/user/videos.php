@@ -39,10 +39,6 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-item nav-link" href="#" id='update_account'>Account</a>
-                            <a class="nav-item nav-link" href="#" id='logout'>Logout</a>
-                            <a class="nav-item nav-link" href="#" id='login'>Login</a>
-                            <a class="nav-item nav-link" href="#" id='sign_up'>Sign Up</a>
                             <a class="nav-item nav-link" href="/view/user/PlayVideoDemo.php" id='player-demo-link'>Demo Player</a>
                         </div>
                     </div>

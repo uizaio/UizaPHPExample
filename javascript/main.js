@@ -2,6 +2,9 @@
  * Find service link
  * @returns {String}
  */
+var appId = "appId";
+var apiUrl = "url";
+
 function getService(){
     var protocol = location.protocol;
     var hostname = location.hostname;

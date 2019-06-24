@@ -4,7 +4,7 @@
 $file_upload_path = dirname($_SERVER["SCRIPT_FILENAME"])."/../upload/";
 define("DBHOST", "localhost");
 define("DBUSER", "root");
-define("DBPASSWORD", "password");
+define("DBPASSWORD", "123456a@A");
 define("DATABASE", "video");
 define("SECURE", FALSE);
 

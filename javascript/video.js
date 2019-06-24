@@ -23,7 +23,7 @@ Video.prototype.checkToken = function(){
   var self = this;
   $.post(self.service + "/controller/ValidateToken.php", JSON.stringify({ jwt: self.jwt }))
           .fail(function(result) {
-//            window.location = self.service + "/view/index.php";
+            window.location = self.service + "/view/index.php";
           }).done(function(result){
             self.renderVideoTable();
           });

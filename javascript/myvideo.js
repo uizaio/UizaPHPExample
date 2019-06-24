@@ -125,9 +125,9 @@ MyVideo.prototype._previewWindow = function(video){
         UZ.Player.init(
           "#uiza-player",
           {
-            api:"trungprod015-api.uiza.co",
-            appId: "52d2872e914e46acaa00c854fae1c537",
-            playerVersion: 4,
+            api: apiUrl,
+            appId: appId,
+            playerVersion: 3,
             entityId: video[0].entityId,
             width: "100%",
             height: "100%"

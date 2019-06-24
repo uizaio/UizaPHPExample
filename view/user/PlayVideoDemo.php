@@ -58,8 +58,8 @@
                                     UZ.Player.init(
                                         "#player",
                                         {
-                                            api:"trungprod015-api.uiza.co",
-                                            appId: "52d2872e914e46acaa00c854fae1c537",
+                                            api: apiUrl,
+                                            appId: appId,
                                             playerVersion: 3,
                                             entityId: id,
                                             width: "100%",
